@@ -1,5 +1,7 @@
 package com.itirafadresi.confess.dao;
 
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
@@ -17,6 +19,13 @@ public class ConfessRepositoryImpl implements ConfessRepository
 	public void save(Confess confess)
 	{
 		em.persist(confess);
+	}
+
+	@Override
+	public List<Confess> getAll()
+	{
+		List<Confess> result = em.createQuery("Select c from Confess c", Confess.class).getResultList();
+		return result;
 	}
 
 }

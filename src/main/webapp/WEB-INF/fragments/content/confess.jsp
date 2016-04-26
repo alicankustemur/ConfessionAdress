@@ -8,7 +8,7 @@
 		</div>
 	</div>
 	<div class="portlet-body form">
-		<form name="confess_form" novalidate="novalidate" role="form" action="" method="POST" id="confess_form1">
+		<form name="confess_form" novalidate="novalidate" role="form" action="/confess/save" method="POST" id="confess_form1">
 			<div class="form-body">
 				<div class="alert alert-danger display-hide">
 					<button class="close" data-close="alert"></button>
@@ -33,7 +33,7 @@
 				<div class="form-group ">
 					<div class="input-icon margin-top-10 ">
 						<i class="fa fa-university"></i> <select name="university" class="form-control" style="color: #AAA;">
-							<?= fillUniversityName(); ?>
+							<option value="1">cumhuriyet üniversitesi</option>
 						</select>
 					</div>
 				</div>

@@ -15,4 +15,11 @@ public class IndexController
 		return "index";
 	}
 
+	@RequestMapping("/validation")
+	public String validation(Model model)
+	{
+		model.addAttribute("title", "İtiraf Adresi");
+		return "validation";
+	}
+
 }

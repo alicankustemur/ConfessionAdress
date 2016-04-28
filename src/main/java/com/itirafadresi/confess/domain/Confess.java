@@ -20,7 +20,7 @@ public class Confess implements Serializable
 	private String	header;
 
 	@Column(columnDefinition = "TEXT")
-	private String	content;
+	private String	confess;
 
 	public long getId()
 	{
@@ -72,14 +72,14 @@ public class Confess implements Serializable
 		this.header = header;
 	}
 
-	public String getContent()
+	public String getConfess()
 	{
-		return content;
+		return confess;
 	}
 
-	public void setContent(String content)
+	public void setConfess(String confess)
 	{
-		this.content = content;
+		this.confess = confess;
 	}
 
 }

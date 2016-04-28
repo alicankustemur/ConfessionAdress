@@ -29,7 +29,7 @@
 						</div>
 						<span class=item-status><span class=badge badge-empty badge-success></span> Open</span>
 					</div>
-					<div class=item-body>${confess.content}</div>
+					<div class=item-body>${confess.confess}</div>
 				</div>
 			</c:forEach>
 

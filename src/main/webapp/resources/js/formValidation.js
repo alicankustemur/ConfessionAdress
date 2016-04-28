@@ -121,7 +121,7 @@ var FormValidation = function () {
                     header: {
                         required: true
                     },
-                    content: {
+                    confess: {
                         required: true
                     },
                     number: {

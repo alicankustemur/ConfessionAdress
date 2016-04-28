@@ -45,7 +45,7 @@
 				<div class="form-group ">
 					<div class="input-icon margin-top-10">
 						<i class="fa fa-edit"></i>
-						<textarea name="content" id="" rows="3" class="form-control" style="color: #AAA;"></textarea>
+						<textarea name="confess" id="" rows="3" class="form-control" style="color: #AAA;"></textarea>
 					</div>
 				</div>
 			</div>

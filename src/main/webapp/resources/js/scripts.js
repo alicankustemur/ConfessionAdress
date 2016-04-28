@@ -15,7 +15,7 @@ function readTextFile(file)
                 var allTextArray = allText.split(",");
                 
                 $.each(allTextArray,function(index,value){
-                	$("select[name='university']").append("<option value="+ index +">"+ value +"</option>");
+                	$("select[name='university']").append("<option value="+ (index+1) +">"+ value +"</option>");
                 });
                 
             }

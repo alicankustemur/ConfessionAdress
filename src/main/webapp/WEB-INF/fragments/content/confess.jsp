@@ -33,7 +33,7 @@
 				<div class="form-group ">
 					<div class="input-icon margin-top-10 ">
 						<i class="fa fa-university"></i> <select name="university" class="form-control" style="color: #AAA;">
-							<option value="1">cumhuriyet üniversitesi</option>
+							<option value="0" disabled selected>üniversite seçiniz</option>
 						</select>
 					</div>
 				</div>

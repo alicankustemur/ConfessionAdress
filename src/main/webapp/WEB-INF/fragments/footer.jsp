@@ -106,6 +106,7 @@
 <script src="resources/theme/assets/admin/layout3/scripts/layout.js" type="text/javascript"></script>
 <script src="resources/theme/assets/admin/layout3/scripts/demo.js" type="text/javascript"></script>
 <script src="resources/js/formValidation.js"></script>
+<script src="resources/js/scripts.js" type="text/javascript" ></script>
 <!-- END PAGE LEVEL STYLES -->
 <!-- BEGIN FORM VALIDATION JAVASCRIPT -->
 <script>

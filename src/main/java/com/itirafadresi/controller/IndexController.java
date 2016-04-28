@@ -20,6 +20,7 @@ public class IndexController
 	{
 		model.addAttribute("title", "İtiraf Adresi");
 		model.addAttribute("confessions", confessService.getAllConfess());
+
 		return "index";
 	}
 

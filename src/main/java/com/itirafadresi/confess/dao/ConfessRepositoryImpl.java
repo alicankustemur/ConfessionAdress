@@ -8,9 +8,10 @@ import javax.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
 
 import com.itirafadresi.confess.domain.Confess;
+import com.itirafadresi.dao.BaseDao;
 
 @Repository
-public class ConfessRepositoryImpl implements ConfessRepository
+public class ConfessRepositoryImpl implements BaseDao<Confess>
 {
 	@PersistenceContext
 	private EntityManager em;

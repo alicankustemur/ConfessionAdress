@@ -25,6 +25,5 @@ function readTextFile(file)
 }
 
 $(document).ready(function(){
-	readTextFile("http://localhost:9090/static/others/university_name.txt");
-	
+	readTextFile("http://localhost:8080/static/others/university_name.txt");
 });

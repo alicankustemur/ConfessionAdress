@@ -118,6 +118,9 @@
 		FormValidation.init();
 	});
 </script>
+<script>
+	
+</script>
 <!-- END JAVASCRIPTS -->
 </body>
 <!-- END BODY -->
